@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-image: url("https://res.cloudinary.com/dnk42vfsu/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1603145992/facebookcircleshackathon/pexels-brett-jordan-4451127_ozibhe.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode:darken;
 }
 
 .App-logo {
@@ -13,19 +18,45 @@
   }
 }
 
+.App-gymname {
+  font-size: 400%;
+}
+
 .App-header {
-  background-color: #282c34;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App-text {
+  text-indent: 20px; 
+  font-weight: bold;
+}
+
+.App-button {
+  background-color: #363636;
+  border: solid;
+  border-radius: 6px;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {

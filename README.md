@@ -69,13 +69,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 Tutorial Below
 1. comment out or delete ---> import logo from './logo.svg';
-2. delete all the code inside the header element within the ---> function App
-3. create a <div> after the header 
-4. After the <div>, add an <h1 class="App-gymname">name of app here</h1>
-5. under the <h1>, add <p class="App-text">text here</p>
-  6. under the <p>, add <button class="App-button">Login</button>
-  7. add the closing </div> after the button element
-  8. to add photo, inside file ---> App.css, inside .App{ (add background-image: url(*paste image url here*)}
+2. delete all the code inside the header element within the function App
+3. create a div after the header 
+4. After the div, add an h1 class="App-gymname"
+5. under the h1, add p class="App-text"
+  6. under the p, add button class="App-button"
+  7. add the closing div after the button element
+  8. to add photo, inside file App.css, inside .App  (add background-image: url(*paste image url here*)
   9. .App-gymname {font-size: 400%;}
   10. .App-header {min-height: 100vh;display: flex;flex-direction: column;align-items: flex-start;justify-content: flex-start;font-size: calc(10px + 2vmin);color: white;}
 11. .App-text {text-indent: 20px; font-weight: bold;}

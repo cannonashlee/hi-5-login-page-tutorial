@@ -67,7 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-Tutorial Below
+FIRST CLONE CREATE REACT APP and make changes below!
 1. comment out or delete ---> import logo from './logo.svg';
 2. delete all the code inside the header element within the function App
 3. create a div after the header 

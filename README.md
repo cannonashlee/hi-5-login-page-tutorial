@@ -75,11 +75,11 @@ FIRST CLONE CREATE REACT APP and make changes below!
 5. under the h1, add p class="App-text"
   6. under the p, add button class="App-button"
   7. add the closing div after the button element
-  8. to add photo, inside file App.css, inside .App  (add background-image: url(*paste image url here*)
+  8. to add photo, inside file App.css, inside .App (add background-image: url(*paste image url here*)
   9. .App-gymname {font-size: 400%;}
-  10. .App-header {min-height: 100vh;display: flex;flex-direction: column;align-items: flex-start;justify-content: flex-start;font-size: calc(10px + 2vmin);color: white;}
-11. .App-text {text-indent: 20px; font-weight: bold;}
-12. .App-button {
+  10. inside .App-header change align-items to flex-start and justify-content to flex-start
+11. add css to .App-text {text-indent: 20px; font-weight: bold;}
+12. add css to .App-button {
   background-color: #363636;
   border: solid;
   border-radius: 6px;
